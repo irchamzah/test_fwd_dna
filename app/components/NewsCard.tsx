@@ -27,7 +27,7 @@ const NewsCard: React.FC<NewsCardProps> = ({
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full relative">
+    <div className="bg-white shadow-md rounded-lg overflow-hidden flex flex-col h-full min-h-60 relative">
       {/* Container for the image */}
       <div className="relative  h-full">
         <img src={urlToImage} alt={title} className="h-full object-cover" />
